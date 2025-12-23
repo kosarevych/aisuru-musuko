@@ -13,12 +13,46 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      font-family: Helvetica, Arial, sans-serif;
-      letter-spacing: 0.2em;
+    }
+
+    body {
+      font-family: "Avenir Heavy", "Avenir", Helvetica, Arial, sans-serif;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 28px 44px;
+      font-size: 32px;
+      letter-spacing: 0.22em;
+    }
+
+    .col {
+      display: grid;
+      gap: 28px;
     }
   </style>
 </head>
 <body>
-  AISURU MUSUKO
+
+  <div class="grid">
+    <div class="col">
+      <div>A</div>
+      <div>I</div>
+      <div>S</div>
+      <div>U</div>
+      <div>R</div>
+      <div>U</div>
+    </div>
+    <div class="col">
+      <div>M</div>
+      <div>U</div>
+      <div>S</div>
+      <div>U</div>
+      <div>K</div>
+      <div>O</div>
+    </div>
+  </div>
+
 </body>
 </html>
